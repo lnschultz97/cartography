@@ -1,13 +1,89 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog</title>
-</head>
-<body>
-  <h1>Blog Post</h1>
-  <p>Write about your recent work, projects, or anything you'd like to share!</p>
-  <a href="index.html">Back to Home</a>
-</body>
+	<head>
+		<title>Blog - Cartography for a Cause</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<style>
+			/* Center-align all text */
+			#main {
+				text-align: center;
+			}
+
+			.blog-section {
+				margin: 0 auto;
+				max-width: 600px;  /* Adjust width for readability */
+				text-align: center;
+			}
+
+			.blog-section h2 {
+				margin-top: 20px;
+				font-weight: bold;
+			}
+
+			.blog-section p {
+				line-height: 1.8;
+				margin-bottom: 20px;
+			}
+
+			.blog-section img {
+				width: 100%;
+				height: auto;
+				border-radius: 8px;
+				margin-bottom: 15px;
+			}
+		</style>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<span class="avatar"><img src="images/Profile.jpg" alt="Profile Picture" /></span>
+				<h1><strong>Leeah's Blog</strong></h1> 
+				<p>Sharing Maps, Projects, and More</p>
+				<a href="index.html">Back to Home</a>
+			</header>
+
+			<!-- Main -->
+			<section id="main">
+				<section class="thumbnails">
+					<div class="blog-section">
+						<h2>Recent Work: Environmental Justice Map</h2>
+						<img src="images/IncomeMapFinal.png" alt="Environmental Justice Map" />
+						<p>This map visualizes income levels and their correlation with access to green spaces, helping identify areas of environmental inequity.</p>
+
+						<h2>Flood Risk in Humboldt County</h2>
+						<img src="images/Flood Risk Map.png" alt="Flood Risk Map" />
+						<p>This project involved creating a flood risk map for Humboldt County using GIS tools, highlighting vulnerable areas as sea levels rise.</p>
+
+						<h2>View from the Eye</h2>
+						<img src="images/View from the Eye.png" alt="View from the Eye" />
+						<p>An exploration of topographic data to visualize the view from a high vantage point, showcasing how GIS can bring landscapes to life.</p>
+
+						<h2>Low Income and Grocery Store Access</h2>
+						<img src="images/FinalMap1.png" alt="Grocery Store Access Map" />
+						<p>This map analyzes access to grocery stores for low-income communities, identifying potential food deserts in the area.</p>
+					</div>
+				</section>
+			</section>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<p>Cartography for a Cause. All rights reserved. Design: Leeah Schultz | Department of Geography | Cal Poly Humboldt</p>
+			</footer>
+			
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
