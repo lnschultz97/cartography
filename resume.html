@@ -5,6 +5,50 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        /* Center the entire page content */
+        #main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            min-height: 80vh;
+            padding: 20px;
+        }
+
+        /* Adjusting the width for readability */
+        #main section {
+            width: 80%;
+            max-width: 800px;
+        }
+
+        ul {
+            list-style: none; /* Remove bullet points */
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Align header items neatly */
+        #header {
+            text-align: center;
+        }
+
+        /* Avatar styling for uniformity */
+        .avatar img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
@@ -15,6 +59,17 @@
         <header id="header">
             <span class="avatar"><img src="images/Profile.jpg" alt="Profile Picture" /></span>
             <h1><strong>Leeah Schultz</strong></h1>
+            <p>Geologist & GIS Enthusiast</p>
+            <nav>
+                <a href="about.html">About</a> |
+                <a href="blog.html">Blog</a> |
+                <a href="resume.html">Resume</a>
+            </nav>
+            <ul class="icons">
+                <li><a href="https://www.instagram.com/leeahappy/" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://github.com/lnschultz97" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="mailto:lnschultz@protonmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+            </ul>
         </header>
 
         <!-- Main -->
@@ -38,24 +93,21 @@
 
             <h2>Work Experience</h2>
             <ul>
-                <li>
-                    <strong>Instructional Assistant, CSU Chico</strong> — JAN 2024 - MAY 2024
+                <li><strong>Instructional Assistant, CSU Chico</strong> — JAN 2024 - MAY 2024
                     <ul>
                         <li>Assisted students with igneous and metamorphic petrology concepts.</li>
                         <li>Graded and organized lab assignments, reports, and exams.</li>
                         <li>Managed student grades using Microsoft Excel.</li>
                     </ul>
                 </li>
-                <li>
-                    <strong>Undergraduate Economic Petrology Researcher, CSU Chico</strong> — AUG 2023 - MAY 2024
+                <li><strong>Undergraduate Economic Petrology Researcher, CSU Chico</strong> — AUG 2023 - MAY 2024
                     <ul>
                         <li>Utilized techniques such as rock cutting, SEM, and petrographic analysis.</li>
                         <li>Collaborated with team members to analyze data and meet research goals.</li>
                         <li>Created geochemical graphs using RStudio and presented findings at conferences.</li>
                     </ul>
                 </li>
-                <li>
-                    <strong>Undergraduate Biology Researcher, CSU Chico</strong> — AUG 2021 - DEC 2022
+                <li><strong>Undergraduate Biology Researcher, CSU Chico</strong> — AUG 2021 - DEC 2022
                     <ul>
                         <li>Applied lab techniques to biological research projects.</li>
                         <li>Organized data from experiments in Microsoft Excel.</li>
