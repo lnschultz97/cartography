@@ -44,6 +44,22 @@
             margin-bottom: 10px;
         }
 
+        /* Underline headings for better separation */
+        h2 {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        h2::after {
+            content: "";
+            display: block;
+            width: 50%;
+            margin: 0 auto;
+            margin-top: 5px;
+            height: 2px;
+            background-color: #333;
+        }
+
         footer {
             text-align: center;
             margin-top: 20px;
@@ -76,13 +92,13 @@
         <section id="main">
             <h2>Education</h2>
             <ul>
-                <li><strong>Bachelor of Science: Geology</strong> — California State University, Chico (Graduated AUG 2024, GPA: 3.2)</li>
+                <li><strong>Bachelor of Science: Geology</strong> — California State University, Chico (Graduated May 2024, GPA: 3.0)</li>
             </ul>
 
             <h2>Certifications</h2>
             <ul>
-                <li>Geologist in Training (GIT) — Expected MAR 2025</li>
-                <li>Geographic Information Systems (GIS) — Expected MAY 2025, Cal Poly Humboldt</li>
+                <li>Geologist in Training (GIT) — Expected March 2025</li>
+                <li>Geographic Information Systems (GIS) — Expected May 2025, Cal Poly Humboldt</li>
             </ul>
 
             <h2>Skills</h2>
@@ -93,21 +109,29 @@
 
             <h2>Work Experience</h2>
             <ul>
-                <li><strong>Instructional Assistant, CSU Chico</strong> — JAN 2024 - MAY 2024
+                <li><strong>Staff Geologist, Luhdorff & Scalmanini, Consulting Engineers (LSCE)</strong> — Current
+                    <ul>
+                        <li>Create GIS maps to support water resource management.</li>
+                        <li>Collect groundwater quality samples for environmental monitoring.</li>
+                        <li>Track water table recharge and monitor groundwater elevation levels.</li>
+                        <li>Analyze data and produce detailed technical reports.</li>
+                    </ul>
+                </li>
+                <li><strong>Instructional Assistant, CSU Chico</strong> — Jan 2024 - May 2024
                     <ul>
                         <li>Assisted students with igneous and metamorphic petrology concepts.</li>
                         <li>Graded and organized lab assignments, reports, and exams.</li>
                         <li>Managed student grades using Microsoft Excel.</li>
                     </ul>
                 </li>
-                <li><strong>Undergraduate Economic Petrology Researcher, CSU Chico</strong> — AUG 2023 - MAY 2024
+                <li><strong>Undergraduate Economic Petrology Researcher, CSU Chico</strong> — Aug 2023 - May 2024
                     <ul>
                         <li>Utilized techniques such as rock cutting, SEM, and petrographic analysis.</li>
                         <li>Collaborated with team members to analyze data and meet research goals.</li>
                         <li>Created geochemical graphs using RStudio and presented findings at conferences.</li>
                     </ul>
                 </li>
-                <li><strong>Undergraduate Biology Researcher, CSU Chico</strong> — AUG 2021 - DEC 2022
+                <li><strong>Undergraduate Biology Researcher, CSU Chico</strong> — Aug 2021 - Dec 2022
                     <ul>
                         <li>Applied lab techniques to biological research projects.</li>
                         <li>Organized data from experiments in Microsoft Excel.</li>
